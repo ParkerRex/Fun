@@ -1,5 +1,0 @@
-SELECT count(*) 
-FROM order_improved
-WHERE order_type = 1
-AND platform = 3
-AND created_on between '2018-05-25 00:00:00' and '2018-05-25 23:59:59'
